@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Message Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <div class="container">
+        <h1>Random Message Generator</h1>
+        <div class="message">
+            <p id="message"></p>
+        </div>
+        <button id="btn" onclick="generateMessage()">Generate Message</button>
+    </div>
+    
+    <!-- footer -->
+     <footer class="footer">
+        <p>Created by <a href="https://github.com/rdvp86/message_generator" target="_blank">RudyVip LLC</a></p>
+     </footerx`>
     <script src="script.js"></script>
 </body>
 </html>
