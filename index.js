@@ -52,10 +52,10 @@ triggerButton.addEventListener("click", () => {
   const messagesContainer = document.createElement("div");
   messagesContainer.classList.add("messages");
   messagesContainer.innerHTML = `
+        <h1 style="color: #16404D">Random Concepts</h1>
         <h2>${networkProtocolSelected}</h2>
         <h2>${programmingConceptSelected}</h2>
         <h2>${networkProgrammingToolSelected}</h2>
     `;
-  //document.body.appendChild(messagesContainer);
   buttonContainer.replaceWith(messagesContainer);
 });
