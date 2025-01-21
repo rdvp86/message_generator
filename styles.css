@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  background-color: #FBF5DD;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color: #98D8EF;
 }
 
 footer {
